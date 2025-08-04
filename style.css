@@ -1,0 +1,180 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #dbeafe;
+}
+
+/* Navbar */
+.navbar {
+  background: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 15px 0;
+}
+
+.nav-links li {
+  margin: 0 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1e3a8a;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #10b981;
+}
+
+/* Sections */
+.section {
+  padding: 60px 0;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* About */
+.about-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+}
+
+.about-image img {
+  border-radius: 15px;
+  max-width: 300px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #1e3a8a;
+}
+
+.highlight {
+  color: #10b981;
+}
+
+.about-text p {
+  margin: 10px 0;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+
+/* Projects */
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.project-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 calc(50% - 30px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.project-card h3 {
+  color: #1e3a8a;
+}
+
+.project-card a {
+  margin-top: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #10b981;
+  font-weight: 500;
+  transition: transform 0.3s;
+}
+
+.project-card a:hover {
+  transform: scale(1.05);
+  color: #065f46;
+}
+
+/* Contact */
+form {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+input, button {
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background: #1e3a8a;
+  color: white;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #10b981;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #f0f0f0;
+  color: #666;
+}
